@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/s.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+    height: 100% !important;
+}
+
+body .recdet{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/w.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+    height: 100% !important;
+}
+header, footer {
+    background-color: #2C593C;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.navbar {
+    background-color: #2C593C;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3); 
+    background-image: linear-gradient(to right, #2C593C, #3e8e41);
+    padding: 10px 0;
+
+}
+
+.navbar a.nav-link, .navbar .navbar-brand, .navbar .btn-danger {
+    color: white;
+}
+
+.nav-link, .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .nav-link:hover, .navbar-brand:hover {
+    color:#fac031 !important;
+  }
+  
+  .navbar-brand:hover img {
+    transform: scale(1.1);
+  }
+  
+  .navbar-toggler {
+    border-color: #fac031; 
+  }
+  
+  
+.registration-form-container {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    margin: 5% auto 5% auto; 
+    margin-bottom: 10px;
+    margin-top: 50px;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    margin: 5% auto 5% auto; 
+    max-height: 60vh;
+    overflow-y: auto;
+    margin-top: 140px;
+    margin-bottom: 180px;
+}
+
+.registration-form-container h1, .login-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color:  #2C593C;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h1 {
+    color: #2C593C;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.role-tabs {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.role-tab {
+    margin: 0 5px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent; 
+    font-size: 16px;
+}
+
+.role-tab.active {
+    border-color: #3e8e41; 
+}
+
+button[type="submit"], button[type="reset"] {
+    background-color: #3e8e41; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+  nav{
+    font-weight: 700;
+  
+  }
+  
+  nav a{
+    font-size: 18px;
+    
+  }
+
+  
+

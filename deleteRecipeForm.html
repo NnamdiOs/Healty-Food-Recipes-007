@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Delete Recipe</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+      <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body class="deleteRecipe">
+    
+    <!--Header Starts Here-->
+    </header>
+    <!-- Navigation Bar Starts-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top px-0" style="background-color: #ffffff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.php">
+            <img src="image/Food Recipe Site Logo.png" alt="logo" height="50" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="Cooks_Dash.php">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="editRecipeForm.html">Update Recipe</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="deleteRecipeForm.html">Delete Recipe</a>
+              </li>
+          </ul>
+        
+              <a href="logout.php" class="btn btn-danger">Logout</a>
+            </div>
+      </div>
+    </nav>
+    <!-- Navigation Bar Ends-->
+    <main>
+        <div class="edit-form-container">
+            <div class="edit-form-text">
+                <h1>Welcome to Our Cooking Blog</h1>
+                <h3>You can delete a recipe here</h3>
+            </div>
+            <form method="post" action="deleteRecipe.php" class="transparent-form">
+                <label>Recipe Name:</label>
+                <input type="text" name="RecipeName" class="form-control" required>
+                <br>
+                <input type="submit" value="Delete Recipe" class="btn btn-danger">
+                <input type="reset" value="Reset" class="btn btn-secondary">
+            </form>
+        </div>
+    </main>
+    <!-- Footer Starts -->
+    <footer class="footers bg-dark text-white pt-5 pb-4">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <!-- Logo and Social Links -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Healty Food Recipe</h5>
+            <p>Explore the best recipes handpicked for you.</p>
+            <div>
+              <a href="https://www.facebook.com/marketplace/create"><i class="fa fa-facebook text-white mr-4"></i></a>
+              <a href="https://twitter.com/home?lang=en"><i class="fa fa-twitter text-white mr-4"></i></a>
+              <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin text-white mr-4"></i></a>
+              <a href="https://www.instagram.com/?login&hl=en-gb"><i class="fa fa-instagram text-white"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Info</h5>
+            <p><a href="#" class="text-white" style="text-decoration: none;">About Us</a></p>
+            <p><a href="#" class="text-white" style="text-decoration: none;">FAQs</a></p>
+            <p><a href="#" class="text-white" style="text-decoration: none;">Advertise</a></p>
+            <p><a href="#" class="text-white" style="text-decoration: none;">Terms and Conditions</a></p>
+            <p><a href="PrivacyPolicy.html" class="text-white" style="text-decoration: none;">Privacy Policy</a></p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+            <p>RGU, Garthdee</p>
+            <p>+44 35565962049</p>
+            <p>TeamO@gmail.com</p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Newsletter</h5>
+            <form>
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" placeholder="Enter your email"/>
+                <button type="submit" class="btn btn-outline-light btn-block">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="text-left text-md-left">
+              © 2024 HFR, Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer Ends Here-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"crossorigin="anonymous"
+    ></script>
+
+  </body>
+  <!--Body Ends Here-->
+</html>
